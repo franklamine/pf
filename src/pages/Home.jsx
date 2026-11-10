@@ -9,9 +9,11 @@ function Home() {
             <section className=" py-10 mx-5">
                 <h1 className="text-5xl font-bold text-left mt-14 md:mt-0">Salut, je m'appelle Frank.</h1>
                 <p className="mt-4 text-left text-xl">
-                    A passionate full-stack developer, I architect modern and robust web applications
-                    in React, Spring Boot, and Laravel. <br/> From interface design to database management,
-                    I ensure complete control of the development cycle.
+                  
+263
+Développeur full-stack passionné, je conçois des applications web modernes et robustes
+à l'aide de React, Spring Boot et Laravel. <br/> De la conception de l'interface à la gestion des bases de données,
+je maîtrise l'intégralité du cycle de développement.
                 </p>
 
                 <div className="mt-8 flex flex-col md:flex-row items-center gap-4">

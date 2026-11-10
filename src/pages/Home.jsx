@@ -7,7 +7,7 @@ function Home() {
 
             {/*session about me*/}
             <section className=" py-10 mx-5">
-                <h1 className="text-5xl font-bold text-left mt-14 md:mt-0">Hi, I'm Frank</h1>
+                <h1 className="text-5xl font-bold text-left mt-14 md:mt-0">Salut, je m'appelle Frank.</h1>
                 <p className="mt-4 text-left text-xl">
                     A passionate full-stack developer, I architect modern and robust web applications
                     in React, Spring Boot, and Laravel. <br/> From interface design to database management,

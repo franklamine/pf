@@ -30,7 +30,7 @@ function Asidebar() {
             {isMobile && (
                 <div className="flex items-center justify-between md:hidden h-auto">
                 <div className="flex items-center gap-5">
-                    <img className="rounded-2xl w-12 h-12" src="logo2.png" alt="logo"/>
+                    <img className="rounded-2xl w-12 h-12" src="logo-min.png" alt="logo"/>
                     <p className="bg-blue-500 rounded text-center mt-2 p-2 whitespace-nowrap overflow-hidden">Disponible
                         pour vos projets</p>
                 </div>
@@ -42,7 +42,7 @@ function Asidebar() {
 
             {/* Logo + Statut */}
             <div className="hidden md:block">
-                <img className="rounded-2xl" src="logo2.png" alt="logo"/>
+                <img className="rounded-2xl" src="logo-min.png" alt="logo"/>
                 <p className="bg-blue-500 rounded text-center mt-2 whitespace-nowrap overflow-hidden">Disponible pour vos
                     projets</p>
             </div>

@@ -10,35 +10,43 @@ function Home() {
 
   return (
     <main className="md:ml-[16.6667%] p-1 md:pr-0">
-      {/*session about me*/}
-      <section className=" py-10 mx-5">
-        <h1 className="text-5xl font-bold text-left mt-14 md:mt-0">
-          Salut, je m'appelle Frank.
+      {/* Présentation d'accueil */}
+      <section className="py-10 mx-5">
+        {/*session about me*/}
+        <h1 className="text-5xl md:text-6xl font-bold text-left mt-4">
+          Bonjour, je suis Frank.
         </h1>
-        <p className="mt-4 text-left text-xl">
-          Développeur full-stack passionné, je conçois des applications web
-          modernes et robustes à l'aide de React, Spring Boot et Laravel. <br />{" "}
-          De la conception de l'interface à la gestion des bases de données, je
-          maîtrise l'intégralité du cycle de développement.
+
+        <p className="mt-6 text-left text-lg md:text-xl leading-relaxed max-w-4xl">
+          Je conçois et développe des applications web modernes, performantes et
+          sécurisées. Je travaille principalement avec Java, Spring Boot et
+          Spring Security pour le backend, ainsi que React et JavaScript pour le
+          frontend.
+          <br />
+          <br />
+          De la conception des API REST à la création des interfaces
+          utilisateur, en passant par la gestion des bases de données,
+          l'authentification et le déploiement, j'aime construire des
+          applications complètes et évolutives.
         </p>
 
         <div className="mt-8 flex flex-col md:flex-row items-center gap-4">
-          {/* Localisation + séparateur */}
           <div className="flex items-center w-full md:w-auto flex-1">
             <div className="flex items-center gap-2 whitespace-nowrap">
               <FaMapMarkerAlt className="text-blue-500 text-lg" />
               <span className="font-medium">Québec, Canada</span>
             </div>
+
             <div className="flex-grow border-t-2 border-dashed border-slate-400 ml-4"></div>
           </div>
 
-          {/* Bouton responsive */}
-          <button className="w-full md:w-auto mt-8 md:mt-0 flex items-center justify-center gap-2 border rounded-xl px-4 py-2 hover:bg-slate-700 hover:text-blue-500 hover:border-transparent transition duration-200">
-            <NavLink to="/about" className="font-medium">
-              À propos de moi
-            </NavLink>
+          <NavLink
+            to="/about"
+            className="w-full md:w-auto flex items-center justify-center gap-2 border rounded-xl px-4 py-3 hover:bg-slate-700 hover:text-blue-500 hover:border-transparent transition duration-200"
+          >
+            À propos de moi
             <FaArrowRight />
-          </button>
+          </NavLink>
         </div>
       </section>
 

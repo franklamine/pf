@@ -117,7 +117,7 @@ function About() {
 
               <div className="border-l-2 border-slate-400 pl-5">
                 <p className="text-xl font-bold">
-                  Technicien en informatique (Stage)
+                  Technicien en informatique
                 </p>
                 <p className="text-blue-500 font-medium mt-1">
                   Matrix Telecom, Cameroun
@@ -127,7 +127,7 @@ function About() {
 
               <div className="border-l-2 border-slate-400 pl-5">
                 <p className="text-xl font-bold">
-                  Technicien en informatique (Stage)
+                  Technicien en informatique
                 </p>
                 <p className="text-blue-500 font-medium mt-1">
                   Univers Binaire, Cameroun
